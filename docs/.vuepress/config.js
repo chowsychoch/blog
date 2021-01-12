@@ -4,9 +4,11 @@ module.exports = {
     ],
     theme: 'reco',
     title: 'Cho\'s blog',
+    logo: '/assets/img/lamp.png',
     description: 'I am a Computer Science student. Here is my thoughts on my studying.',
     themeConfig: {
         type:'blog',
+        authorAvatar: '/lamp.png',
         noFoundPageByTencent: false,
         authorAvatar: '/profile.JPG',
         // Blog configuration
@@ -29,9 +31,9 @@ module.exports = {
             {
                 text: 'Category',
                 items: [
-                    { text: 'LeetCode', link: '/category/leetcode.html' },
-                    { text: 'Personal Notes', link: '/category/note.html' },
-                    { text: 'Other', link: '/category/other.html' }
+                    { text: 'LeetCode', link: '/categories/LeetCode/' },
+                    { text: 'Personal Notes', link: '/categories/Note/' },
+                    { text: 'Other', link: '/categories/Other/' }
                 ]
             },
             {
@@ -42,9 +44,12 @@ module.exports = {
                     { text: 'Email', link: 'https://www.linkedin.com/in/chowsy-cho/' }
                 ]
             },
+            { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
             { text: 'About', link: '/about.html' }
 
         ],
+        lastUpdated: 'Last Updated',
+        author: 'Chowsy Cho'
     }
 }
 
