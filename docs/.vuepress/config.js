@@ -1,9 +1,10 @@
 module.exports = {
     head: [
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
-    ['link', { rel: 'icon', href: `/lamp.png` }]
+    ['link', { rel: 'icon', href: `/logo.png` }]
     ],
     theme: 'reco',
+    base: '/blog/',
     title: 'Cho\'s blog',
     permalink: '/:year/:month/:day/:slug',
     logo: '/assets/img/lamp.png',
