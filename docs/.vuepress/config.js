@@ -1,14 +1,16 @@
 module.exports = {
     head: [
-    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
+    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
+    ['link', { rel: 'icon', href: `/lamp.png` }]
     ],
     theme: 'reco',
     title: 'Cho\'s blog',
+    permalink: '/:year/:month/:day/:slug',
     logo: '/assets/img/lamp.png',
     description: 'I am a Computer Science student. Here is my thoughts on my studying.',
     themeConfig: {
         type:'blog',
-        authorAvatar: '/lamp.png',
+        logo: '/logo.png',
         noFoundPageByTencent: false,
         authorAvatar: '/profile.JPG',
         // Blog configuration
@@ -22,8 +24,8 @@ module.exports = {
                 text: 'Tag'      // Text default to "Tag"
             },
             socialLinks: [     // Information bar displays social information
-                { icon: 'reco-github', link: 'https://github.com/recoluan' },
-                { icon: 'reco-npm', link: 'https://www.npmjs.com/~reco_luan' }
+                { icon: 'reco-github', link: 'https://github.com/chowsychoch' },
+                { icon: 'reco-linkedin', link: 'https://www.linkedin.com/in/chowsy-cho/' }
             ]
         },
         nav: [
@@ -41,7 +43,7 @@ module.exports = {
                 items: [
                     { text: 'Github', link: 'https://github.com/chowsychoch' },
                     { text: 'Linkedin', link: 'https://www.linkedin.com/in/chowsy-cho/' },
-                    { text: 'Email', link: 'https://www.linkedin.com/in/chowsy-cho/' }
+                    { text: 'Email', link: 'mailto:chomancho2021@gmail.com' }
                 ]
             },
             { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
