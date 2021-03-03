@@ -52,7 +52,8 @@ module.exports = {
 
         ],
         lastUpdated: 'Last Updated',
-        author: 'Chowsy Cho'
+        author: 'Chowsy Cho',
+        dest:'public'
     }
 }
 
