@@ -6,7 +6,7 @@ module.exports = {
     theme: 'reco',
     base: '/blog/',
     title: 'Cho\'s blog',
-    permalink: '/:year/:month/:day/:slug',
+ 
     logo: '/assets/img/lamp.png',
     description: 'I am a Computer Science student. Here is my thoughts on my studying.',
     themeConfig: {
