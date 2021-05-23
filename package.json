@@ -4,21 +4,21 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.8.0",
-    "axios":"0.21.1",
-    "underscore":"^1.12.1",
-    "url-parse":"^1.5.0",
-    "lodash":"^4.17.21",
-    "ssri":"^6.0.2",
-    "is-svg":"^4.2.2",
-    "elliptic":"^6.5.4"
-
+    "axios": "0.21.1",
+    "elliptic": "^6.5.4",
+    "is-svg": "^4.2.2",
+    "lodash": "^4.17.21",
+    "ssri": "^6.0.2",
+    "underscore": "^1.12.1",
+    "url-parse": "^1.5.0",
+    "vuepress": "^1.8.0"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
+    "vuepress-plugin-rss": "^2.0.0",
     "vuepress-theme-reco": "^1.6.1"
   }
 }
